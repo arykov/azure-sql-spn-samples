@@ -7,9 +7,8 @@ import java.util.Set;
 
 public class Main{
 	public static void  main(String ... args)throws Exception{
-		TENANT_ID = 'provide your AAD tenant id'
 		String SERVER_NAME = "Azure SQL server", DATABASE_NAME = "Azure SQL server";
-		String TENANT_ID='provide your AAD tenant id';
+		String TENANT_ID="provide your AAD tenant id";
 		String CLIENT_ID="client id of your SPN", SECRET = "secret of your SPN";
 
 		Set<String> SCOPE = Collections.singleton("https://database.windows.net/.default");
